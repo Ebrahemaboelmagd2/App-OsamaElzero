@@ -48,7 +48,7 @@ function data() {
                 // Handle Buleets
                 handleBuleets();
 
-                // clearInterval(countdownInterval)
+                clearInterval(countdownInterval)
                 countdown( 5 , countObj)
 
                 
