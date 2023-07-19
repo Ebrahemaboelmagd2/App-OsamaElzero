@@ -30,7 +30,7 @@ function data() {
             AddQuestionsAnswer(obj[CurrentIndex] , countObj)
 
             //Start Countdown
-                // countdown( 1 , countObj)
+                countdown( 5 , countObj)
 
             // Click On Submit
             submit.onclick = () => {
@@ -49,7 +49,7 @@ function data() {
                 handleBuleets();
 
                 // clearInterval(countdownInterval)
-                // countdown( 1 , countObj)
+                countdown( 5 , countObj)
 
                 
                 showResult(countObj);   
@@ -198,23 +198,23 @@ function showResult(count) {
 }
 
 
-// function countdown (duration , count) {
-//     if (CurrentIndex < count) {
-//         let minutes , seconed;
-//         countdownInterval = setInterval(function () {
-//             minutes = parseInt(duration / 60)
-//             seconed = parseInt(duration % 60)
+function countdown (duration , count) {
+    if (CurrentIndex < count) {
+        let minutes , seconed;
+        countdownInterval = setInterval(function () {
+            minutes = parseInt(duration / 60)
+            seconed = parseInt(duration % 60)
 
-//             minutes = minutes < 10 ? `0${minutes}`: minutes ;
-//             seconed = seconed < 10 ? `0${seconed}`: seconed ;
+            minutes = minutes < 10 ? `0${minutes}`: minutes ;
+            seconed = seconed < 10 ? `0${seconed}`: seconed ;
 
 
-//             countDiv.innerHTML = `${minutes}::${seconed}`;
-//             if(--duration < 0) {
-//                 clearInterval(countdownInterval);
-//                 console.log("finish")
-//                 submit.click();
-//             }
-//         }, 1000)
-//     }
-// }
+            countDiv.innerHTML = `${minutes}::${seconed}`;
+            if(--duration < 0) {
+                clearInterval(countdownInterval);
+                console.log("finish")
+                submit.click();
+            }
+        }, 1000)
+    }
+}
