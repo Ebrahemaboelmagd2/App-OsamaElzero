@@ -1,0 +1,72 @@
+[
+    {
+        "Title" : "What is the purpose of the connect function in Redux" , 
+        "Answer_1" : "To create a new store instance" ,
+        "Answer_2" : "To connect a component to the store" ,
+        "Answer_3" : "To create middleware for the store" ,
+        "Rigth_Answer" : "To create middleware for the store" 
+    },
+    {
+        "Title" : "What is the purpose of the useRef hook in React" , 
+        "Answer_1" : "To access a mutable value that persists across renders" ,
+        "Answer_2" : "To manage component state" ,
+        "Answer_3" : "To manage component props" ,
+        "Rigth_Answer" : "To manage component state" 
+    },
+    {
+        "Title" : " What is the difference between React elements and React components in React?" , 
+        "Answer_1" : "There is no difference" ,
+        "Answer_2" : "React elements are plain objects that describe what to render, while React components are functions or classes that produce React elements" ,
+        "Answer_3" : "React components are plain objects that describe what to render, while React elements are functions or classes that produce React components" ,
+        "Rigth_Answer" : "There is no difference" 
+    },
+    {
+        "Title" : "What is the purpose of the connect function in Redux" , 
+        "Answer_1" : "To create a new store instance" ,
+        "Answer_2" : "To connect a component to the store" ,
+        "Answer_3" : "To create middleware for the store" ,
+        "Rigth_Answer" : "To create middleware for the store" 
+    },
+    {
+        "Title" : "What is the purpose of the useMemo hook in React? " , 
+        "Answer_1" : "To memoize a value, and recompute it only when its dependencies change" ,
+        "Answer_2" : "To manage component props" ,
+        "Answer_3" : "To manage component state" ,
+        "Rigth_Answer" : "To manage component props" 
+    },
+    {
+        "Title" : "Which of the following are two ways to handle data in react?" , 
+        "Answer_1" : "services and components" ,
+        "Answer_2" : "State and props" ,
+        "Answer_3" : "state and services" ,
+        "Rigth_Answer" : "services and components" 
+    },
+    {
+        "Title" : "What is the purpose of the withRouter higher-order component in React Router?" , 
+        "Answer_1" : "To pass routing props, such as match, location, and history, to a wrapped component" ,
+        "Answer_2" : "To connect a component to the Redux store" ,
+        "Answer_3" : "To add authentication to a component" ,
+        "Rigth_Answer" : "To connect a component to the Redux store" 
+    },
+    {
+        "Title" : "What is used to handle code-splitting? " , 
+        "Answer_1" : "React.lazy" ,
+        "Answer_2" : "React.memo" ,
+        "Answer_3" : "React.fallback" ,
+        "Rigth_Answer" : "React.memo" 
+    },
+    {
+        "Title" : "What is the purpose of the useCallback hook in React?" , 
+        "Answer_1" : "To manage component props" ,
+        "Answer_2" : "To manage component state" ,
+        "Answer_3" : "To memoize a function, and recompute it only when its dependencies change" ,
+        "Rigth_Answer" : "To manage component state" 
+    },
+    {
+        "Title" : " What is the purpose of the useContext hook in React?" , 
+        "Answer_1" : "To manage component state" ,
+        "Answer_2" : "To manage component props" ,
+        "Answer_3" : "To memoize a function, and recompute it only when its dependencies change" ,
+        "Rigth_Answer" : "To memoize a function, and recompute it only when its dependencies change" 
+    }
+]

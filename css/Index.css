@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.quez {
+    background-color: #f9f9f9;
+    width: 60%;
+    height: 570px;
+    margin: auto;
+    color: white;
+    padding: 10px;
+}
+.quez header {
+    padding: 0px 0px 10px 0px;
+}
+.quez header div {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+}
+.quez header h3,.quez header h4{
+    padding: 12px;
+}
+.quez header h4 span{
+
+}
+.Questions-parent {
+    width: 94%;
+    background-color: white;
+    margin: auto;
+    padding: 25px;
+    color: black;
+    font-weight: bold;
+    height: 230px;
+}
+.Questions {
+    background-color: #f9f9f9;
+    color: black;
+    font-weight: bold;
+    padding: 13px;
+    /* display: none; */
+}
+.Questions input {
+
+}
+.Questions label {
+
+}
+.Questions:not(:last-child) {
+    border-bottom: 1px solid #c0b8b8;
+}
+input[type="submit"] {
+    background-color: #0075ff;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+input[type="radio"]:checked + label {
+    color: #0075ff;
+}
+input[type="submit"]:focus {
+    outline: none;
+}
+input[type="submit"]:hover {
+    background-color: #043266;
+    transition: 0.5s;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+    background-color: white;
+}
+.count {
+    color: black;
+}
+.spans span {
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    background-color: #ddd;
+    display: inline-flex;
+    margin-left: 2px;
+}
+.star {
+    background-color: #0075ff !important;
+}
+
+.result {
+    color: black;
+}
+.Appreciation {
+    display: inline-block;
+    color: #0075ff;
+    font-size: 20px;
+}
+.countDiv {
+    color: black;
+}
